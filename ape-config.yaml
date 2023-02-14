@@ -11,3 +11,8 @@ ethereum:
   default_network: mainnet
   mainnet:
     default_provider: alchemy
+
+dependencies:
+  - name: UniswapV3Core
+    github: Uniswap/v3-core
+    branch: main
