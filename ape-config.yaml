@@ -1,0 +1,13 @@
+name: univ3-ape
+
+plugins:
+  - name: alchemy
+  - name: notebook
+  - name: etherscan
+
+default_ecosystem: ethereum
+
+ethereum:
+  default_network: mainnet
+  mainnet:
+    default_provider: alchemy
